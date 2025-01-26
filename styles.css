@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    background-color: #dccfba;
+    align-items: center;
+    gap: 1rem;
+}
+
+main {
+    display: flex;
+    gap: 1rem;
+}
+
+#appetizers {
+    flex: 2
+} 
+
+section ul li span {
+    font-weight: bold;
+}
+
+section h2 {
+    text-align: center;
+    background-color: darkgreen;
+    color: white;
+}
